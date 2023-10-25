@@ -9,6 +9,37 @@ root {
 }
 *{
     font-family: 'Poppins', sans-serif;
-    border:0px;
     margin:0px;
+    border: 1px dashed green;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding:20px;
+    border:0px;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding:20px; 
+    border:0px;
+}
+
+.btnDarkMode{
+    padding:20px;
+    margin: auto;
+    border:0px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    text-align: center;
+}
+.footer{
+    display: flex;
 }
